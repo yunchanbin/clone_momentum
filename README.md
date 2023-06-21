@@ -30,13 +30,13 @@
 - `git remote -v`
   : 디렉토리와 원격저장소의 연결 상태를 확인할 수 있다. `git init` 만 했다면 아무것도 뜨지 않는다.
 
-  ! [git_remote1] (/asset/img/git_remote1.png "git_remote1")
+  ![git_remote1](/Users/oliver/nomad/momentum/assets/img/git_remote1.png)
 
 - `git remote add <이름> <원격저장소 주소>`
 
   :  현재 디렉토리를 github의 원격저장소와 연결한다. 연결 후 다시 `git remote -v`로 상태를 확인해보면 연결된 것을 확인할 수 있다.
 
-  ! [git_remote2] (/asset/img/git_remote2.png "git_remote2")
+  ![git_remote2](/Users/oliver/nomad/momentum/assets/img/git_remote2.png)
 
 #### -`git add`
 
@@ -53,6 +53,13 @@
 
 
 
-#### -`git push origin`
+#### -`git push origin master`
 
 : commit한 내역을 원격저장소로 보내서 동기화한다.
+
+> * push 도중 에러 발생![push에러](/Users/oliver/Library/Application Support/typora-user-images/image-20230622024945447.png)
+>
+> master 브랜치가 없어서 문제가 생겼다면, git init 할 때마다 master 브랜치를 만들어 줘야 하는 건가? 예전에 origin 뭐 설정하는 거 있었던 거 같은데... 다음에 마저 검색해봐야 겠다.
+>
+> [git에서 origin에 관한 참고자료] (http://daplus.net/git-git-push-origin-master%EC%97%90%EC%84%9C-origin%EC%9D%98-%EC%9D%98%EB%AF%B8%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9E%85%EB%8B%88%EA%B9%8C/)
+
