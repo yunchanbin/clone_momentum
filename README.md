@@ -14,6 +14,8 @@
 
 ## 0. git, github 사용하기
 
+[git 입문하기](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
+
 #### -`git init`
 
 : 터미널에서 git으로 관리할 디렉토리로 들어간 후 `git init` 을 입력하면 git으로 관리하는 디렉토리가 된다. (.git 디렉토리가 생긴 것을 확인할 수 있다.)
