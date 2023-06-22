@@ -59,7 +59,7 @@
 
 : commit한 내역을 원격저장소로 보내서 동기화한다.
 
-> * push 도중 에러 발생 <br>
+> * push 도중 에러 발생<br>
 >
 > ![push_error](./assets/img/push_error.png)
 >
@@ -78,5 +78,16 @@
 > master, slave 관계가 인종차별적 의미를 가지고 있기 때문에 현재는 main을 기본 브랜치로 사용한다고 한다. 아마 지금 충돌이 났던 이유는 지난 국비지원 교육 과정에서 강사님이 하라는 대로 github와 git의 기본 브랜치 이름을 master로 모두 바꾸었다가, 장기간 git이 방치되어 git의 기본 브랜치 이름만 main으로 초기화 되면서 생긴 이슈라고 생각한다..
 
 ### -`git merge <브랜치 이름>`
-: 현재 선택된 브랜치에다가 지정한 브랜치의 변경사항을 합친다.
+- ff(fast-forward) : 현재 선택된 브랜치는 수정사항이 없고, 지정한 브랜치만 커밋이 존재할 때, 그 상태로 바꿔주는 것을 의미. 
+
+- non fast-forward : 두 브랜치 모두 수정사항이 존재하여 각각의 수정사항을 합치는 것을 의미.
+
+### -`git pull origin master`
+: github의 원격 저장소의 커밋 내용을 로컬 저장소로 가져와서 합친다. (fetch + merge)
+
+> - push 도중 에러 발생
+>
+> ![push_error](./assets/img/pull_error.png)
+>
+> 원격 저장소는 그대로 있는 상태에서 로컬 저장소에 커밋한 내용이 있어서 오류가 발생했다. 내용을 합쳐서 다시 push하기 위해서 `git config pull.rebase false`실행하여  충돌한 파일에서 충돌한 지점을 수정하면 다시 commit 할 수 있는 것 같다.
 
