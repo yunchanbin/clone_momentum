@@ -1,13 +1,4 @@
-let a = 5;
-let b = 2;
+const amIFat = null;
+let someting;
 
-let myName = "yun";
-
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello "+ myName);
-
-myName = "yunchanbin";
-
-console.log("your new name is "+myName);
+console.log(someting);
