@@ -194,5 +194,15 @@ variable(변수)를 만들 때는 const와 let을 이용해서 선언할 수 있
 
 <br>
 
+### - 2.6 Objects
+
+배열처럼 여러 항목을 넣을 수 있는데, 각 항목의 순서만 나열된 것이 아니라 이름이 정해진 것.
+
+![!](./assets/img/2.6-1.png)
+
+object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하거나 추가할 수 있다. 여기서 player라는 object 자체는 const이지만 각 항목은 const가 아니라고 생각하면 될 것 같다. 사실은 `console.log( )`에서 사용하는 log도 console이라는 object 안에 있는 하나의 항목이다.
+
+<br>
+
 
 
