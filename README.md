@@ -17,8 +17,8 @@
 - [0. git, github 사용하기](#0-git--github-----)
 - [1. requirements](#1-requirements)
 - [2 javacript basic](#2-javacript-basic)
-    + [- 2.0 Your First JS Project](#--20-your-first-js-project)
-    + [- 2.1 Basic Data Types](#--21-basic-data-types)
+  + [- 2.0 Your First JS Project](#--20-your-first-js-project)
+  + [- 2.1 Basic Data Types](#--21-basic-data-types)
 
 <br>
 
@@ -39,6 +39,7 @@
 
 
 #### -`git remote`
+
 - `git remote -v`
   : 디렉토리와 원격저장소의 연결 상태를 확인할 수 있다. `git init` 만 했다면 아무것도 뜨지 않는다.
 
@@ -88,11 +89,13 @@
 > master, slave 관계가 인종차별적 의미를 가지고 있기 때문에 현재는 main을 기본 브랜치로 사용한다고 한다. 아마 지금 충돌이 났던 이유는 지난 국비지원 교육 과정에서 강사님이 하라는 대로 github와 git의 default 브랜치 이름을 master로 모두 바꾸었다가, 장기간 사용하지 않으면서 git의 default만 main으로 초기화 되어 생긴 이슈라고 생각한다.<br>
 
 ### -`git merge <브랜치 이름>`
+
 - ff(fast-forward) : 현재 선택된 브랜치는 수정사항이 없고, 지정한 브랜치만 커밋이 존재할 때, 그 상태로 바꿔주는 것을 의미. 
 
 - non fast-forward : 두 브랜치 모두 수정사항이 존재하여 각각의 수정사항을 합치는 것을 의미.<br>
 
 ### -`git pull origin master`
+
 : github의 원격 저장소의 커밋 내용을 로컬 저장소로 가져와서 합친다. (fetch + merge)
 
 > - push 도중 에러 발생
@@ -204,5 +207,13 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 
 <br>
 
+### - 2.7 Function part One
 
+앞서 player라는 object에서 name항목을 가져올 때 `player.name`을 이용했는데 `console.log( )`와 다른 점은 괄호의 유무이다. 괄호가 있으면 함수이다.
+
+함수란, 자주 사용하는 것을 반복해서 사용하기 편하도록 해놓은 것이다.
+
+<br>
+
+### - 2.8 Function part Two
 
