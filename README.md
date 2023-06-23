@@ -15,7 +15,7 @@
 ## 목차
 
 - [0. git, github 사용하기](#0-git--github-----)
-    
+  
     + [-`git init`](#--git-init-)
     + [-`git status`](#--git-status-)
     + [-`git remote`](#--git-remote-)
@@ -109,6 +109,33 @@
 
 
 
+
+
 # 1. requirements
 
 javascrip는 프론트엔드 개발을 하려면 필수적이다. 프레임 워크를 이용하면 백엔드 개발도 가능하다. VScode를 이용하여 javascript를 다뤄 볼 예정이다.
+
+
+
+# 2 javacript basic
+
+### - 2.0 Your First JS Project
+
+: javascript가 작동하는 방식에 대한 설명이다. javascrip는 별도의 프로그램 설치 없이 모든 브라우저에서 작동한다. console에서 명령을 내리면 바로 출력이 나오기도 하지만, 복잡한 프로그램을 만들기 위해서는 파일명.js 형태로 자바스크립트 파일을 만들고, html 파일에서 불러오는 형식으로 작동한다. (css도 마찬가지)
+
+VScode에서 html 파일을 연 다음 `!`로 자동으로 기본 뼈대를 만들 수 있다.
+
+![!](./assets/img/2.0-1.png)
+
+css 파일은 head안에, 그리고 title 위에서 가져온다. (rel은 relationship의 약자)
+
+그리고 js 파일은 body 안에서 가져온다.
+
+![!](./assets/img/2.0-2.png)
+
+앞으로의 수업에서는 js 파일을 편집해가면서 html 파일을 열었을 때 어떻게 작동하는지 확인할 예정이다.
+
+
+
+### - 2.1 Basic Data Types
+
