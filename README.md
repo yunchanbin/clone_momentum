@@ -2,7 +2,7 @@
 
 > 2022년 4월부터 8월까지 4월간 국비지원 교육을 받았으나 개인 사정에 의해 수학학원에서 일을 하게 되면서 1년간의 공백이 생겼다. 다시 개발 공부를 시작하면서 가장 간단하면서도 꼭 알아야 하는 javascript부터 시작하기로 결정했다. 과정은 [노마드코더](https://nomadcoders.co) 사이트에서 무료로 제공하는 모멘텀 클론코딩으로 정했다.
 
-
+<br>
 
 ## 학습 목표
 
@@ -10,23 +10,17 @@
 - 기본적인 git, github 사용법 숙지하기
 - javascript 복습
 
-
+<br>
 
 ## 목차
 
 - [0. git, github 사용하기](#0-git--github-----)
-  
-    + [-`git init`](#--git-init-)
-    + [-`git status`](#--git-status-)
-    + [-`git remote`](#--git-remote-)
-    + [-`git add`](#--git-add-)
-    + [-`git commit -m '커밋메세지'`](#--git-commit--m---------)
-  + [-`git push origin master`](#--git-push-origin-master-)
-  * [-`git merge <브랜치 이름>`](#--git-merge----------)
-  * [-`git pull origin master`](#--git-pull-origin-master-)
 - [1. requirements](#1-requirements)
+- [2 javacript basic](#2-javacript-basic)
+    + [- 2.0 Your First JS Project](#--20-your-first-js-project)
+    + [- 2.1 Basic Data Types](#--21-basic-data-types)
 
-
+<br>
 
 # 0. git, github 사용하기
 
@@ -91,12 +85,12 @@
 >
 > 결론은 `git push origin <브랜치 이름>`에서 브랜치는 로컬 저장소의 브랜치 이름과 원격 저장소의 브랜치 이름이 일치해야 한다. 즉, 로컬 저장소에 존재하지 않는 브랜치 이름으로 push할 순 없다. 반면에, 로컬 저장소에만 존재하고 원격 저장소에는 없는 브랜치를 push하면 원격저장소에 같은 이름의 브랜치가 새로 만들어진다.<br>
 >
-> master, slave 관계가 인종차별적 의미를 가지고 있기 때문에 현재는 main을 기본 브랜치로 사용한다고 한다. 아마 지금 충돌이 났던 이유는 지난 국비지원 교육 과정에서 강사님이 하라는 대로 github와 git의 default 브랜치 이름을 master로 모두 바꾸었다가, 장기간 사용하지 않으면서 git의 default만 main으로 초기화 되어 생긴 이슈라고 생각한다.
+> master, slave 관계가 인종차별적 의미를 가지고 있기 때문에 현재는 main을 기본 브랜치로 사용한다고 한다. 아마 지금 충돌이 났던 이유는 지난 국비지원 교육 과정에서 강사님이 하라는 대로 github와 git의 default 브랜치 이름을 master로 모두 바꾸었다가, 장기간 사용하지 않으면서 git의 default만 main으로 초기화 되어 생긴 이슈라고 생각한다.<br>
 
 ### -`git merge <브랜치 이름>`
 - ff(fast-forward) : 현재 선택된 브랜치는 수정사항이 없고, 지정한 브랜치만 커밋이 존재할 때, 그 상태로 바꿔주는 것을 의미. 
 
-- non fast-forward : 두 브랜치 모두 수정사항이 존재하여 각각의 수정사항을 합치는 것을 의미.
+- non fast-forward : 두 브랜치 모두 수정사항이 존재하여 각각의 수정사항을 합치는 것을 의미.<br>
 
 ### -`git pull origin master`
 : github의 원격 저장소의 커밋 내용을 로컬 저장소로 가져와서 합친다. (fetch + merge)
@@ -133,7 +127,7 @@ css 파일은 head안에, 그리고 title 위에서 가져온다. (rel은 relati
 
 ![!](./assets/img/2.0-2.png)
 
-앞으로의 수업에서는 js 파일을 편집해가면서 html 파일을 열었을 때 어떻게 작동하는지 확인할 예정이다.
+앞으로의 수업에서는 js 파일을 편집해가면서 html 파일을 열었을 때 어떻게 작동하는지 확인할 예정이다.<br>
 
 
 
