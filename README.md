@@ -17,8 +17,15 @@
 - [0. git, github 사용하기](#0-git--github-----)
 - [1. requirements](#1-requirements)
 - [2 javacript basic](#2-javacript-basic)
-  + [- 2.0 Your First JS Project](#--20-your-first-js-project)
-  + [- 2.1 Basic Data Types](#--21-basic-data-types)
+    + [- 2.0 Your First JS Project](#--20-your-first-js-project)
+    + [- 2.1 Basic Data Types](#--21-basic-data-types)
+    + [- 2.2 Variables](#--22-variables)
+    + [- 2.3 const and let](#--23-const-and-let)
+    + [- 2.4 Booleans](#--24-booleans)
+    + [- 2.5 Arrays](#--25-arrays)
+    + [- 2.6 Objects](#--26-objects)
+    + [- 2.7 Function part One](#--27-function-part-one)
+    + [- 2.8 Function part Two](#--28-function-part-two)
 
 <br>
 
@@ -226,5 +233,3 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 > 위와 같이 함수를 선언하면 `console.log()`에서 사용했던 형태의 함수를 만들 수 있다.
 
 <br>
-
-### 
