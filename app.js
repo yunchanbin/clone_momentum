@@ -1,10 +1,9 @@
-function sayHello(){
-    console.log("Hello!")
+const player = {
+    name: "nico",
+    sayHello:function(otherPersonsName){
+        console.log("hello " + otherPersonsName);
+    }
 }
 
-sayHello();
-sayHello();
-sayHello();
-sayHello();
-
-
+console.log(player.name);
+player.sayHello("chanbin");
