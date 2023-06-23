@@ -14,11 +14,17 @@
 
 ## 목차
 
-- [0. git, github 사용하기](#0. git github 사용하기)
-
-- [1. requirements](#1. requirements)
-
-
+- [0. git, github 사용하기](#0-git--github-----)
+    
+    + [-`git init`](#--git-init-)
+    + [-`git status`](#--git-status-)
+    + [-`git remote`](#--git-remote-)
+    + [-`git add`](#--git-add-)
+    + [-`git commit -m '커밋메세지'`](#--git-commit--m---------)
+  + [-`git push origin master`](#--git-push-origin-master-)
+  * [-`git merge <브랜치 이름>`](#--git-merge----------)
+  * [-`git pull origin master`](#--git-pull-origin-master-)
+- [1. requirements](#1-requirements)
 
 
 
