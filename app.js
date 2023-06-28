@@ -16,7 +16,6 @@ const calculator = {
     }
 }
 
-
 const plusResult = calculator.add(2, 3);
 const minusResult = calculator.minus(plusResult, 10);
 const timesResult = calculator.times(10, minusResult);
