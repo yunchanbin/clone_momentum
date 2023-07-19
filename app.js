@@ -22,4 +22,5 @@ const timesResult = calculator.times(10, minusResult);
 const divideResult = calculator.divide(timesResult, plusResult);
 const powerResult = calculator.power(divideResult, minusResult);
 
+console.log(plusResult);
 console.log(powerResult);
