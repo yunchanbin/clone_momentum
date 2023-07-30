@@ -312,6 +312,34 @@ asd를 입력하면 아래와 같이 나온다.
 
 <br>
 
+# 3. javascript on the browser
+
+### 3.0 The Document Object
+
+HTML의 요소들은 Object에서 불러오듯이 쓸 수 있다.
+
+<br>
+
+### 3.1 HTML in javascript
+
+javascript에서 HTML의 항목들을 불러오거나 바꿀 수 있다.
+
+<br>
+
+### 3.2 Searching For Elements
+
+- `document.getElementById( 아이디 )` : 아이디가 괄호 안에 있는 텍스트와 일치하는 것을 가져옴
+
+- `document.getElementByClassName( 클래스 )` : 클래스가 괄호안에 있는 텍스트와 일치하는 것을 배열 형태로 가져옴
+
+- `document.querySelector(  )` : 괄호 안에다가 css selector 방식으로 원하는 것을 가져올 수 있다. 하나의 element를 가져올 수 있음. 만족하는 것 중 첫번째 element만 가져올 수 있다.
+
+  ![](./assets/img/3.2-1.png)
+
+- `document.querySelectorAll(  )` : element 전부를 가져올 수 있다.
+
+<br>
+
 
 
 
