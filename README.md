@@ -35,7 +35,7 @@
 
 # 0. git, github 사용하기
 
-[*git 사용법 정리](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
+# [*git 사용법 정리](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
 
 #### -`git init`
 
