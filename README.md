@@ -248,10 +248,10 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 
 <br>
 
-### - 2.11 Condition
+### - 2.11 Conditionals
 - `prompt("메세지")`: 메세지를 띄워 보여주고, 사용자가 값을 입력하면 그 값을 받아옴. 아주 오래된 방법이고 css를 적용할 수 없을 뿐더러 답하기 전까지 이 라인에서 동작을 멈추기 때문에 사용 안한다.
 
-> - type을 바꾸는 방법 : `parseInt( )`
+ - type을 바꾸는 방법 : `parseInt( )`
 
 ![!](./assets/img/2.11-1.png)
 
@@ -273,9 +273,29 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 
 
 
+### - 2.12 Conditionals part Two
 
+- `inNaN( )` : 괄호 안의 값이 NaN인지 판별하여 boolean으로 반환해준다.
 
+![!](./assets/img/2.12-1.png)
 
+123을 입력하면 위와 같이 나오고, 
+
+![!](./assets/img/2.12-2.png)
+
+asd를 입력하면 아래와 같이 나온다.
+
+이제 condition을 확인한다. `if ( ) {  }`에서 ( ) 안에 있는 값이 true이면 { }안에 있는 코드를 실행.
+
+![!](./assets/img/2.12-3.png)
+
+숫자가 아닌 값을 입력하면 condition이 true니까 이렇게 나옴.
+
+![!](./assets/img/2.12-4.png)
+
+숫자를 입력하면 condition이 false라서 else안에 있는 코드를 실행.
+
+<br>
 
 
 
