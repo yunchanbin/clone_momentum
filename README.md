@@ -371,3 +371,14 @@ event를 찾는 방법은 ''[element] html element mdn' 이라고 검색하고 �
 우리가 하는 건, JavaScript로 HTML element를 가져오고, 가져온 element에 listener를 추가해주고, event가 발생하면  function을 실행시켜준다.
 
 <br>
+
+### - 3.5 More Events
+
+- `[Element].[Event] = [function]` : Listener를 사용하지 않고도 Event에 따른 함수를 동작하도록 할 수 있다.
+
+  ![](./assets/img/3.5-1.png)
+
+  Listener를 쓰면 나중에 remove로 지울 수 있는 장점이 있는데 작동은 둘 다 가능하니 선호하는 형태로 쓰면 된다.
+
+그 외 다양한 Event들은 element MDN에서 검색할 수 있으니 찾아서 써보도록 하자.
+
