@@ -316,13 +316,13 @@ asd를 입력하면 아래와 같이 나온다.
 
 ### 3.0 The Document Object
 
-HTML의 요소들은 Object에서 불러오듯이 쓸 수 있다.
+HTML의 property들은 Object에서 불러오듯이 쓸 수 있다.
 
 <br>
 
 ### 3.1 HTML in javascript
 
-javascript에서 HTML의 항목들을 불러오거나 바꿀 수 있다.
+javascript에서 HTML의 property들을 불러오거나 바꿀 수 있다.
 
 <br>
 
@@ -348,15 +348,26 @@ javascript는 페이지에서 일어나는 event들을 listen 하고 있다. 이
 
   ![](./assets/img/3.3-1.png)
 
-  Grab me1을 클릭하면 파란색으로 바뀐다. 8번 라인에 `handleTitleClick()`가 아니라 함수 이름만 넘겨주는 것에 명심하자. 어떤 함수를 실행할 지 정해준 것이다. `()`이 들어가면 javascript는 그 자리에서 함수를 실행해버림
+  Grab me1을 클릭하면 파란색으로 바뀐다. 8번 라인에 `handleTitleClick()`가 아니라 함수 이름만 넘겨주는 것에 명심하자. 어떤 함수를 실행할 지 정해준 것이다. `()`은 실행의 의미를 가지기 때문에 javascript는 그 자리에서 함수를 실행해버림
 
 <br>
 
 ### -3.4 Events part Two
 
+event를 찾는 방법은 ''[element] html element mdn' 이라고 검색하고 제목 뒤에 'Web APIs(JavaScript관점의 HTML Heading Element를 의미함)'라는 문장이 포함된 페이지를 찾는다.
 
+![](./assets/img/3.4-2.png)
 
+아니면 `console.dir( [element] )`를 이용해서 element 안에 있는 property들을 살펴보면 event도 찾을 수 있다.
 
+![](./assets/img/3.4-1.png)
 
+여기서 on-으로 시작하는 property들은 다 event를 의미하는데, event로 불러올 때는 on을 빼고 써야 한다.
 
+>![](./assets/img/3.4-3.png)
+>
+>테스트 삼아 만들어봄. title이라는 element 위에 커서가 올라가거나 떠나면 innerText를 바꿔주고, 클릭하면 색상을 바꿔준다.
 
+우리가 하는 건, JavaScript로 HTML element를 가져오고, 가져온 element에 listener를 추가해주고, event가 발생하면  function을 실행시켜준다.
+
+<br>
