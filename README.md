@@ -340,6 +340,22 @@ javascript에서 HTML의 항목들을 불러오거나 바꿀 수 있다.
 
 <br>
 
+### - 3.3 Events
+
+javascript는 페이지에서 일어나는 event들을 listen 하고 있다. 이걸 이용해서 event가 발생하면 내가 원하는 동작을 수행하도록 할 수 있다.
+
+- `[element].addEventListener([이벤트 종류], [실행할 동작])` : element에 해당 이벤트가 발생하면 동작을 실행한다.
+
+  ![](./assets/img/3.3-1.png)
+
+  Grab me1을 클릭하면 파란색으로 바뀐다. 8번 라인에 `handleTitleClick()`가 아니라 함수 이름만 넘겨주는 것에 명심하자. 어떤 함수를 실행할 지 정해준 것이다. `()`이 들어가면 javascript는 그 자리에서 함수를 실행해버림
+
+<br>
+
+### -3.4 Events part Two
+
+
+
 
 
 
