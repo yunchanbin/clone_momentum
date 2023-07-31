@@ -414,9 +414,19 @@ CSS파일에 미리 .clicked에 해당하는 property를 설정해놓고, javasc
 
 <br>
 
+### - 3.8 CSS in Javascript part Three
 
+- `[element].classList`: class들의 목록으로 작업할 수 있게끔 허용
+- `[element].classList.contain([클래스 이름])`: 클래스 이름을 가지고 HTML element 안에 해당 클래스가 존재하는지 찾고 boolean을 반환한다.
+- `[element].classList.add([클래스 이름])`: element의 classList에 해당 클래스를 하나 추가함
+- `[element].classList.remove([클래스 이름])`: element의 classList에서 해당 클래스를 제거함
 
+![](./assets/img/3.8-1.png)
 
+- `[element].classList.toggle([클래스 이름])`위의 코드와 같은 기능을 toggle함수 하나만으로 구현할 수 있다.
 
+![](./assets/img/3.8-2.png)
 
+clicked가 존재하면 삭제하고, 존재하지 않으면 추가하겠다는 뜻.
 
+<br>
