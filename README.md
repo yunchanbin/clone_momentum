@@ -382,3 +382,41 @@ event를 찾는 방법은 ''[element] html element mdn' 이라고 검색하고 �
 
 그 외 다양한 Event들은 element MDN에서 검색할 수 있으니 찾아서 써보도록 하자.
 
+<br>
+
+### - 3.6 CSS in Javascript
+
+그냥 간단한 if else 사용해서 CSS 바꿔봄.
+
+![](./assets/img/3.6.png)
+
+<br>
+
+### - 3.7 CSS in JavaScript part Two
+
+javascript는 애니메이션에는 적합하지만 CSS를 설정하는일은 CSS에서 하는 것이 적합할 것. 하지만, 이번 시간에는 javascript와 HTML, CSS간의 연결에 대해 공부한다.
+
+![](./assets/img/3.7-3.png)
+
+CSS파일에 미리 .clicked에 해당하는 property를 설정해놓고, javascript에서는 CSS를 바꾸는게 아니라 className을 바꾼다.
+
+> - 변수 선언하여 오류 줄이기
+>
+>   ![](./assets/img/3.7-1.png)
+>
+>   이 상태에서는 만약에 clicked를 적다가 오타가 나면 어디서 오류가 났는지 console에 나타나지 않음.
+>
+>   ![](./assets/img/3.7-2.png)
+>
+>   이렇게 고치면 만약에 clickedClass를 적는 과정에서 오타가 나더라도 console에서 알려줌.
+>
+>   따라서, String을 const로 선언하는 형태는 오류를 줄이기 위해서 자주 쓰임.
+
+<br>
+
+
+
+
+
+
+
