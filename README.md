@@ -14,22 +14,44 @@
 
 ## 목차
 
-- [0. git, github 사용하기](#0-git--github-----)
+- [JavaScript 복습: 모멘텀 클론코딩](#javascript-복습-모멘텀-클론코딩)
+  - [학습 목표](#학습-목표)
+  - [목차](#목차)
+- [0. git, github 사용하기](#0-git-github-사용하기)
+- [\*git 사용법 정리](#git-사용법-정리)
+      - [-`git init`](#-git-init)
+      - [-`git status`](#-git-status)
+      - [-`git remote`](#-git-remote)
+      - [-`git add`](#-git-add)
+      - [-`git commit -m '커밋메세지'`](#-git-commit--m-커밋메세지)
+      - [-`git push origin master`](#-git-push-origin-master)
+    - [-`git merge <브랜치 이름>`](#-git-merge-브랜치-이름)
+    - [-`git pull origin master`](#-git-pull-origin-master)
 - [1. requirements](#1-requirements)
 - [2 javacript basic](#2-javacript-basic)
-    + [- 2.0 Your First JS Project](#--20-your-first-js-project)
-    + [- 2.1 Basic Data Types](#--21-basic-data-types)
-    + [- 2.2 Variables](#--22-variables)
-    + [- 2.3 const and let](#--23-const-and-let)
-    + [- 2.4 Booleans](#--24-booleans)
-    + [- 2.5 Arrays](#--25-arrays)
-    + [- 2.6 Objects](#--26-objects)
-    + [- 2.7 Function part One](#--27-function-part-one)
-    + [- 2.8 Function part Two](#--28-function-part-two)
-    + [- 2.10 Returns](#--210-returns)
+    - [- 2.0 Your First JS Project](#--20-your-first-js-project)
+    - [- 2.1 Basic Data Types](#--21-basic-data-types)
+    - [- 2.2 Variables](#--22-variables)
+    - [- 2.3 const and let](#--23-const-and-let)
+    - [- 2.4 Booleans](#--24-booleans)
+    - [- 2.5 Arrays](#--25-arrays)
+    - [- 2.6 Objects](#--26-objects)
+    - [- 2.7 Function part One](#--27-function-part-one)
+    - [- 2.8 Function part Two](#--28-function-part-two)
+    - [- 2.10 Returns](#--210-returns)
     - [- 2.12 Conditionals](#--212-conditionals)
     - [- 2.13 Conditionals part Two](#--213-conditionals-part-two)
     - [- 2.14 Conditionals part Three](#--214-conditionals-part-three)
+- [3. javascript on the browser](#3-javascript-on-the-browser)
+    - [3.0 The Document Object](#30-the-document-object)
+    - [3.1 HTML in javascript](#31-html-in-javascript)
+    - [3.2 Searching For Elements](#32-searching-for-elements)
+    - [- 3.3 Events](#--33-events)
+    - [-3.4 Events part Two](#-34-events-part-two)
+    - [- 3.5 More Events](#--35-more-events)
+    - [- 3.6 CSS in Javascript](#--36-css-in-javascript)
+    - [- 3.7 CSS in JavaScript part Two](#--37-css-in-javascript-part-two)
+    - [- 3.8 CSS in Javascript part Three](#--38-css-in-javascript-part-three)
 
 <br>
 
@@ -430,3 +452,4 @@ CSS파일에 미리 .clicked에 해당하는 property를 설정해놓고, javasc
 clicked가 존재하면 삭제하고, 존재하지 않으면 추가하겠다는 뜻.
 
 <br>
+
