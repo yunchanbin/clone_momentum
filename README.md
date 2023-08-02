@@ -52,6 +52,9 @@
     - [- 3.6 CSS in Javascript](#--36-css-in-javascript)
     - [- 3.7 CSS in JavaScript part Two](#--37-css-in-javascript-part-two)
     - [- 3.8 CSS in Javascript part Three](#--38-css-in-javascript-part-three)
+- [4. Login 만들기](#4-login-만들기)
+    - [4.0 Input Values](#40-input-values)
+    - [4.1 Form Submission](#41-form-submission)
 
 <br>
 
@@ -450,6 +453,22 @@ CSS파일에 미리 .clicked에 해당하는 property를 설정해놓고, javasc
 ![](./assets/img/3.8-2.png)
 
 clicked가 존재하면 삭제하고, 존재하지 않으면 추가하겠다는 뜻.
+
+<br>
+
+# 4. Login 만들기
+
+### 4.0 Input Values
+
+HTML에서 `input:[type]`입력 후 엔터를 치면 input element가 만들어진다. (`<input type="[type]"> </input>` 형태)
+
+<br>
+
+### 4.1 Form Submission
+
+> #### input type에 따른 사용
+> - text : text를 입력할 수 있게 함. String으로 받는다. required를 넣으면 빈칸허용 불가.
+> 
 
 <br>
 

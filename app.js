@@ -4,8 +4,9 @@ const loginButton = loginForm.querySelector("button");
 //loginForm은 HTML Element이므로 querySelector로 찾을 수 있다.
 
 function handleLoginBtnClick(){
-    //console.log("clicked");
-    console.log("hello ", loginInput.value);
+    const username = loginInput.value;
+    console.log(username);
+    
 }
 
 
