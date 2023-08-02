@@ -55,6 +55,7 @@
 - [4. Login 만들기](#4-login-만들기)
     - [4.0 Input Values](#40-input-values)
     - [4.1 Form Submission](#41-form-submission)
+    - [4.2 Events](#42-events)
 
 <br>
 
@@ -481,6 +482,9 @@ form 안에 있는 button나, input type="submit"을 클릭하면 자동으로 f
 
 ![](./asset/../assets/img/4.1.png)
 
+그리고 버튼을 클릭하면 url 맨 뒤가 물음표로 바뀌면서 화면이 넘어가는 것을 확인 할 수 있다.
 
 <br>
+
+### 4.2 Events
 

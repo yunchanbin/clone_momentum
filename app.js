@@ -1,13 +1,10 @@
-const loginForm = document.getElementById("login-form");
-const loginInput = loginForm.querySelector("input");
-const loginButton = loginForm.querySelector("button");
-//loginForm은 HTML Element이므로 querySelector로 찾을 수 있다.
+const loginForm = document.querySelector("#login-form");
+const loginInput = loginForm.querySelector("#login-form input");
 
-function handleLoginBtnClick(){
+function onLoginSubmit(){
     const username = loginInput.value;
     console.log(username);
-    
+
 }
 
-
-loginButton.addEventListener("click", handleLoginBtnClick);
+loginForm.addEventListener("submit", onLoginSubmit);
