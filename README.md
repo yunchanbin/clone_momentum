@@ -56,6 +56,7 @@
     - [4.0 Input Values](#40-input-values)
     - [4.1 Form Submission](#41-form-submission)
     - [4.2 Events](#42-events)
+    - [4.3](#43)
 
 <br>
 
@@ -480,11 +481,41 @@ clicked가 존재하면 삭제하고, 존재하지 않으면 추가하겠다는 
 
 form 안에 있는 button나, input type="submit"을 클릭하면 자동으로 form이 submit 된다. 버튼이 여러개 있어도 다 같은 기능을 함.
 
-![](./asset/../assets/img/4.1.png)
-
-그리고 버튼을 클릭하면 url 맨 뒤가 물음표로 바뀌면서 화면이 넘어가는 것을 확인 할 수 있다.
-
 <br>
 
 ### 4.2 Events
 
+![](./asset/../assets/img/4.1.png)
+
+그리고 버튼을 클릭하면 url 맨 뒤가 물음표로 바뀌면서 화면이 넘어가는 것을 확인 할 수 있다. 
+
+![](/assets/img/4.2-1.png)
+
+하지만 우리는새로고침 되는 걸 막아야 한다. 브라우저는 엔터를 누를 때 submit 하면서 새로고침하는게 기본 동작인데 그걸 막아야 한다.
+
+그 전에 중요한 거 하나가 있는데, Listener에서 onLoginSubmitrk 를 실행할 때는 자동으로 어떤 argument를 가지고 온다. 확인해보자.
+
+![](assets/img/4.2-2.png)
+
+![](assets/img/4.2-3.png)
+
+tomato를 argument로 받아서 argument가 존재하는지 확인해보기 위해서 `console.log(tomato)` 했더니 콘솔에 찍혀있다. 이 argument를 이용해서 앞으로 많은 것들을 하게 될 것. 다시 정리하면, EventListener로 실행되는 함수는 어떤 정보(information)들을 argument로 가져온다.
+
+![](assets/img/4.2-4.png)
+
+그래서 여기 있는게 해당 이벤트에 대한 정보들이다. 예를들면, submitter: input 에서 주체가 input인 것을 알 수 있다. 
+
+- `[information].preventDefault()` : event의 기본행동(submit에 새로고침 같은 거)이 발생하지 않도록 막는 역할.
+  
+<br>
+
+> information에 해당하는 argument를 받아 올 때는 argument 이름을 event로 설정하는 것이 관례.
+> ![](assets/img/4.2-4.png)
+
+이제 새로고침 되는 걸 막았으니 `console.log(loginInput.value)`를 찍어보면 새로고침 없이 value를 막을 수 있다.
+
+![](assets/img/4.2-6.png)
+
+<br>
+
+### 4.3 
