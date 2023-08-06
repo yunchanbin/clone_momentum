@@ -56,7 +56,7 @@
     - [4.0 Input Values](#40-input-values)
     - [4.1 Form Submission](#41-form-submission)
     - [4.2 Events](#42-events)
-    - [4.3](#43)
+    - [4.3 Events part Two](#43-events-part-two)
 
 <br>
 
@@ -518,4 +518,6 @@ tomato를 argument로 받아서 argument가 존재하는지 확인해보기 위�
 
 <br>
 
-### 4.3 
+### 4.3 Events part Two
+
+anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (강의에서는 MouseEvent가 발생했고 내 컴퓨터에서는 PointerEvent가 발생함.)
