@@ -59,6 +59,7 @@
     - [4.3 Events part Two](#43-events-part-two)
     - [4.4 Getting Username](#44-getting-username)
     - [4.5 Saving Username](#45-saving-username)
+    - [4.6 Loding Username](#46-loding-username)
 
 <br>
 
@@ -543,3 +544,10 @@ anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (�
 - `localStorage.getItem([key])` : localStorage에 저장된 정보를 불러올 수 있다.
 - `localStorage.removeItem([key])` : localStorage에 저장된 정보를 삭제한다.
 
+<br>
+
+### 4.6 Loding Username
+
+lacalStorge에 username이 존재하면 form 대신 h1을 보여준다.
+
+![](assets/img/4.6-1.png)
