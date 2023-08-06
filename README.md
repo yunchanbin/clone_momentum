@@ -57,6 +57,7 @@
     - [4.1 Form Submission](#41-form-submission)
     - [4.2 Events](#42-events)
     - [4.3 Events part Two](#43-events-part-two)
+    - [4.4 Getting Username](#44-getting-username)
 
 <br>
 
@@ -521,3 +522,13 @@ tomato를 argument로 받아서 argument가 존재하는지 확인해보기 위�
 ### 4.3 Events part Two
 
 anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (강의에서는 MouseEvent가 발생했고 내 컴퓨터에서는 PointerEvent가 발생함.)
+
+<vr>
+
+### 4.4 Getting Username
+
+- string과 변수를 합치는 방법
+![](assets/img/4.4-1.png)
+밑에 있는 방법을 많이 사용하면 편하다. `${변수 이름}`으로 사용하면 되고, 작은 따옴표가 아니라 백틱(``)을 이용해야 함.
+
+<br>
