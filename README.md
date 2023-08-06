@@ -539,4 +539,7 @@ anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (�
 이제 유저이름 받아오는 건 완성했고, username을 저장하도록 하려고 한다.
 기록할 수 있도록 해주는 API가 localStorage이다. 
 
-- `localStorage.setItem` : local storage에서 정보를 저장할 수 있게 해주는 도구
+- `localStorage.setItem([key],[value])` : localStorage에서 정보를 저장할 수 있게 해준다.
+- `localStorage.getItem([key])` : localStorage에 저장된 정보를 불러올 수 있다.
+- `localStorage.removeItem([key])` : localStorage에 저장된 정보를 삭제한다.
+
