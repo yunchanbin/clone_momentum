@@ -60,6 +60,7 @@
     - [4.4 Getting Username](#44-getting-username)
     - [4.5 Saving Username](#45-saving-username)
     - [4.6 Loding Username](#46-loding-username)
+    - [4.7 Super Recap](#47-super-recap)
 
 <br>
 
@@ -551,3 +552,15 @@ anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (�
 lacalStorge에 username이 존재하면 form 대신 h1을 보여준다.
 
 ![](assets/img/4.6-1.png)
+
+<br>
+
+### 4.7 Super Recap
+
+paintGreetings에서 argument를 꼭 받아올 필요가 없다. 이미 localStorage에 username을 저장했으니 거기서 불러오도록 코드 작성.
+
+![](assets/img/4.7-1.png)
+
+form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안에 넣어줌.
+
+![](assets/img/4.7-2.png)
