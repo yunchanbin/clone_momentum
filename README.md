@@ -61,6 +61,8 @@
     - [4.5 Saving Username](#45-saving-username)
     - [4.6 Loding Username](#46-loding-username)
     - [4.7 Super Recap](#47-super-recap)
+- [5. CLOCK 만들기](#5-clock-만들기)
+    - [5.0 Intervals](#50-intervals)
 
 <br>
 
@@ -564,3 +566,14 @@ paintGreetings에서 argument를 꼭 받아올 필요가 없다. 이미 localSto
 form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안에 넣어줌.
 
 ![](assets/img/4.7-2.png)
+
+<br>
+
+# 5. CLOCK 만들기
+
+### 5.0 Intervals
+
+- divide and conquer : 기능마다 새로운 .js 파일을 만들어서 사용하는 방식
+
+- `setinterval([실행시킬 함수], [주기 밀리세컨드])` : 일정 시간마다 새로운 일이 일어나도록 설정할 수 있다.
+![](assets/img/5.0-1.png)
