@@ -63,6 +63,7 @@
     - [4.7 Super Recap](#47-super-recap)
 - [5. CLOCK 만들기](#5-clock-만들기)
     - [5.0 Intervals](#50-intervals)
+    - [5.1 Timeouts and Dates](#51-timeouts-and-dates)
 
 <br>
 
@@ -575,5 +576,41 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 
 - divide and conquer : 기능마다 새로운 .js 파일을 만들어서 사용하는 방식
 
-- `setinterval([실행시킬 함수], [주기 밀리세컨드])` : 일정 시간마다 새로운 일이 일어나도록 설정할 수 있다.
+- `setInterval([실행시킬 함수], [주기 ms])` : 일정 시간마다 새로운 일이 일어나도록 설정할 수 있다.
 ![](assets/img/5.0-1.png)
+
+
+### 5.1 Timeouts and Dates
+
+- `setTimeout([실행시킬 함수], [주기 ms])` : 일정 시간이 지나면 일이 발생하도록 함.
+
+> Date object
+> 
+> 컴퓨터에서 현재 날짜,시간 등 정보를 가져올 수 있다.
+> ![](assets/img/5.1-1.png)
+> ![](assets/img/5.1-2.png)
+
+코드 작성
+![](assets/img/5.1-3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
