@@ -64,6 +64,7 @@
 - [5. CLOCK 만들기](#5-clock-만들기)
     - [5.0 Intervals](#50-intervals)
     - [5.1 Timeouts and Dates](#51-timeouts-and-dates)
+    - [5.2 PadStart](#52-padstart)
 
 <br>
 
@@ -579,6 +580,8 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 - `setInterval([실행시킬 함수], [주기 ms])` : 일정 시간마다 새로운 일이 일어나도록 설정할 수 있다.
 ![](assets/img/5.0-1.png)
 
+<br>
+
 
 ### 5.1 Timeouts and Dates
 
@@ -591,7 +594,24 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 > ![](assets/img/5.1-2.png)
 
 코드 작성
+
 ![](assets/img/5.1-3.png)
+
+<br>
+
+### 5.2 PadStart
+
+- `[String].padStart([최소로 필요한 문자 수], [부족할 경우 채워 넣을 문자])`
+![](assets/img/5.2-1.png)
+
+- `[String].padEnd([최소로 필요한 문자 수], [부족할 경우 채워 넣을 문자])`
+![](assets/img/5.2-2.png)
+
+코드 작성
+![](assets/img/5.2-3.png)
+date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 한다.
+  
+- `String([string이 아닌 문자])` : String으로 만들어줌.
 
 
 
