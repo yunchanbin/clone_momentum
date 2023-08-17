@@ -67,6 +67,8 @@
     - [5.2 PadStart](#52-padstart)
 - [6. QUOTE AND BACKGROUND](#6-quote-and-background)
     - [6.0 Quotes](#60-quotes)
+    - [6.1. Background](#61-background)
+    - [6.2 Recap](#62-recap)
 
 <br>
 
@@ -629,8 +631,18 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 코드 작성
 ![](assets/img/6.0-3.png)
 
+<br>
 
+### 6.1. Background
 
+- `createElement([생성할 element])` : HTML Element를 생성하는데, document 안에 만드는게 아니라서 따로 넣어줘야 함.
+
+코드 작성
+![](assets/img/6.1.png)
+
+<br>
+
+### 6.2 Recap
 
 
 
