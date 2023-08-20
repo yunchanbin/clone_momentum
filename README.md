@@ -72,6 +72,7 @@
     - [7.0 Setup](#70-setup)
     - [7.1 Adding ToDos ~ 7.2 Deleting To Dos](#71-adding-todos--72-deleting-to-dos)
     - [7.3 Saving To Dos](#73-saving-to-dos)
+    - [7.4 Loading To Dos part One](#74-loading-to-dos-part-one)
 
 <br>
 
@@ -688,8 +689,18 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
+### 7.4 Loading To Dos part One
+
+- `JSON.parse([string])` : string을 javascript언어로 바꿔줌
+![](assets/img/7.4-1.png)
+![](assets/img/7.4-2.png)
+
+- `[배열].forEach([함수])`
+![](assets/img/7.4-3.png)
+배열 안에 있는 각각의 item에 대해서 한번씩 어떤 함수를 작동시킬 때 사용.
+또는 아래 방법처럼 arrow function 이용해도 됨.
+![](assets/img/7.4-4.png)
 
 
 
-
-
+ 
