@@ -70,7 +70,7 @@
     - [6.1. Background](#61-background)
 - [7. TO DO LIST](#7-to-do-list)
     - [7.0 Setup](#70-setup)
-    - [7.1 Adding ToDos](#71-adding-todos)
+    - [7.1 Adding ToDos ~ 7.2 Deleting To Dos](#71-adding-todos--72-deleting-to-dos)
 
 <br>
 
@@ -653,8 +653,19 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 코드 작성
 ![](assets/img/7.0.png)
 
-### 7.1 Adding ToDos
+<br>
 
+### 7.1 Adding ToDos ~ 7.2 Deleting To Dos
+
+코드 작성
+
+![](assets/img/7.2-1.png)
+
+event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위치에 대한 정보를 알 수 있다.
+
+8번 라인에 오타 있음. `.innerText`는 지워야 함.
+
+<br>
 
 
 

@@ -3,11 +3,20 @@ const toDoInput = toDoForm.querySelector("input");
 // const toDoInput = document.querySelector("#tode-form input");
 const toDoList = document.getElementById("todo-list");
 
+const toDos = [];
+
+function deleteToDo(event){
+  console.log(event.target.parentElement.innerText);
+  const li = event.target.parentElement;
+  li.remove();
+}
+
 function paintToDo(newTodo){
   const li = document.createElement("li");
   const span = document.createElement("span");
   const button = document.createElement("button");
   button.innerText = "❌";
+  button.addEventListener("click", deleteToDo);
 
   toDoList.appendChild(li);
   li.appendChild(span);
