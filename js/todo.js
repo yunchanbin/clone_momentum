@@ -46,5 +46,5 @@ const savedToDos = localStorage.getItem(TODOS_KEY);
 
 if(saveToDos !== null){
   const parsedToDos = JSON.parse(savedToDos);
-  console.log(parsedToDos);
+  parsedToDos.forEach();
 }
