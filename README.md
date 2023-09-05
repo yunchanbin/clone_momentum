@@ -665,12 +665,13 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 
 event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위치에 대한 정보를 알 수 있다.
 
+여기서 target은 클릭한 버튼이고, 버튼의 parentElement가 li가 된다.
+
 8번 라인에 오타 있음. `.innerText`는 지워야 함.
 
 <br>
 
 ### 7.3 Saving To Dos
-
 
 코드 작성
 
@@ -691,16 +692,17 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 ### 7.4 Loading To Dos part One
 
+전체적인 컨셉은 local storage에 String으로 저장해서 불러올 땐 그 String을 javascript언어로 바꿔주는 것.
+
 - `JSON.parse([string])` : string을 javascript언어로 바꿔줌
 ![](assets/img/7.4-1.png)
 ![](assets/img/7.4-2.png)
 
 - `[배열].forEach([함수])`
 ![](assets/img/7.4-3.png)
-배열 안에 있는 각각의 item에 대해서 한번씩 어떤 함수를 작동시킬 때 사용.
+배열 안에 있는 각각의 item에 대해서 한번씩 어떤 함수를 작동시킬 때 사용. item은 event를 자동으로 제공했던 것 처럼 사용할 수 있음.
 또는 아래 방법처럼 arrow function 이용해도 됨.
 ![](assets/img/7.4-4.png)
 
+어차피 배열 안에 있는 값들을 하나씩 넣을 것이기 때문에, paintToDo에 그대로 사용해도 된다.
 
-
- 

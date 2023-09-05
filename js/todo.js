@@ -12,7 +12,6 @@ function saveToDos(){
 }
 
 function deleteToDo(event){
-  console.log(event.target.parentElement.innerText);
   const li = event.target.parentElement;
   li.remove();
 }
@@ -28,7 +27,6 @@ function paintToDo(newTodo){
   li.appendChild(span);
   li.appendChild(button);
   span.innerText = newTodo;
-  
 }
 
 function handleToDoSubmit(event){
@@ -46,5 +44,8 @@ const savedToDos = localStorage.getItem(TODOS_KEY);
 
 if(saveToDos !== null){
   const parsedToDos = JSON.parse(savedToDos);
-  parsedToDos.forEach();
+  // parsedToDos.forEach(paintToDo);
+  parsedToDos.forEach(element => {
+    paintToDo(element);
+  });
 }
