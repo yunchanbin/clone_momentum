@@ -17,8 +17,7 @@
 - [JavaScript 복습: 모멘텀 클론코딩](#javascript-복습-모멘텀-클론코딩)
   - [학습 목표](#학습-목표)
   - [목차](#목차)
-- [0. git, github 사용하기](#0-git-github-사용하기)
-- [\*git 사용법 정리](#git-사용법-정리) - [-`git init`](#-git-init) - [-`git status`](#-git-status) - [-`git remote`](#-git-remote) - [-`git add`](#-git-add) - [-`git commit -m '커밋메세지'`](#-git-commit--m-커밋메세지) - [-`git push origin master`](#-git-push-origin-master)
+- [0. git, github 사용하기](#0-git-github-사용하기) - [-`git init`](#-git-init) - [-`git status`](#-git-status) - [-`git remote`](#-git-remote) - [-`git add`](#-git-add) - [-`git commit -m '커밋메세지'`](#-git-commit--m-커밋메세지) - [-`git push origin master`](#-git-push-origin-master)
   - [-`git merge <브랜치 이름>`](#-git-merge-브랜치-이름)
   - [-`git pull origin master`](#-git-pull-origin-master)
 - [1. requirements](#1-requirements)
@@ -37,46 +36,46 @@
   - [- 2.13 Conditionals part Two](#--213-conditionals-part-two)
   - [- 2.14 Conditionals part Three](#--214-conditionals-part-three)
 - [3. javascript on the browser](#3-javascript-on-the-browser)
-  - [3.0 The Document Object](#30-the-document-object)
-  - [3.1 HTML in javascript](#31-html-in-javascript)
-  - [3.2 Searching For Elements](#32-searching-for-elements)
+  - [- 3.0 The Document Object](#--30-the-document-object)
+  - [- 3.1 HTML in javascript](#--31-html-in-javascript)
+  - [- 3.2 Searching For Elements](#--32-searching-for-elements)
   - [- 3.3 Events](#--33-events)
-  - [-3.4 Events part Two](#-34-events-part-two)
+  - [- 3.4 Events part Two](#--34-events-part-two)
   - [- 3.5 More Events](#--35-more-events)
   - [- 3.6 CSS in Javascript](#--36-css-in-javascript)
   - [- 3.7 CSS in JavaScript part Two](#--37-css-in-javascript-part-two)
   - [- 3.8 CSS in Javascript part Three](#--38-css-in-javascript-part-three)
 - [4. Login 만들기](#4-login-만들기)
-  - [4.0 Input Values](#40-input-values)
-  - [4.1 Form Submission](#41-form-submission)
-  - [4.2 Events](#42-events)
-  - [4.3 Events part Two](#43-events-part-two)
-  - [4.4 Getting Username](#44-getting-username)
-  - [4.5 Saving Username](#45-saving-username)
-  - [4.6 Loding Username](#46-loding-username)
-  - [4.7 Super Recap](#47-super-recap)
+  - [- 4.0 Input Values](#--40-input-values)
+  - [- 4.1 Form Submission](#--41-form-submission)
+  - [- 4.2 Events](#--42-events)
+  - [- 4.3 Events part Two](#--43-events-part-two)
+  - [- 4.4 Getting Username](#--44-getting-username)
+  - [- 4.5 Saving Username](#--45-saving-username)
+  - [- 4.6 Loding Username](#--46-loding-username)
+  - [- 4.7 Super Recap](#--47-super-recap)
 - [5. CLOCK 만들기](#5-clock-만들기)
-  - [5.0 Intervals](#50-intervals)
-  - [5.1 Timeouts and Dates](#51-timeouts-and-dates)
-  - [5.2 PadStart](#52-padstart)
+  - [- 5.0 Intervals](#--50-intervals)
+  - [- 5.1 Timeouts and Dates](#--51-timeouts-and-dates)
+  - [- 5.2 PadStart](#--52-padstart)
 - [6. QUOTE AND BACKGROUND](#6-quote-and-background)
-  - [6.0 Quotes](#60-quotes)
-  - [6.1. Background](#61-background)
+  - [- 6.0 Quotes](#--60-quotes)
+  - [- 6.1 Background](#--61-background)
 - [7. TO DO LIST](#7-to-do-list)
-  - [7.0 Setup](#70-setup)
-  - [7.1 Adding ToDos ~ 7.2 Deleting To Dos](#71-adding-todos--72-deleting-to-dos)
-  - [7.3 Saving To Dos](#73-saving-to-dos)
-  - [7.4 Loading To Dos part One](#74-loading-to-dos-part-one)
-  - [7.5 Loading To Dos part Two](#75-loading-to-dos-part-two)
-  - [7.6 Deleteing To Dos part One](#76-deleteing-to-dos-part-one)
-  - [7.7 Deleting To Dos part Two](#77-deleting-to-dos-part-two)
-  - [7.8 Deleting To Dos part Three](#78-deleting-to-dos-part-three)
+  - [- 7.0 Setup](#--70-setup)
+  - [- 7.1 Adding ToDos ~ 7.2 Deleting To Dos](#--71-adding-todos--72-deleting-to-dos)
+  - [- 7.3 Saving To Dos](#--73-saving-to-dos)
+  - [- 7.4 Loading To Dos part One](#--74-loading-to-dos-part-one)
+  - [- 7.5 Loading To Dos part Two](#--75-loading-to-dos-part-two)
+  - [- 7.6 Deleteing To Dos part One](#--76-deleteing-to-dos-part-one)
+  - [- 7.7 Deleting To Dos part Two](#--77-deleting-to-dos-part-two)
+  - [- 7.8 Deleting To Dos part Three](#--78-deleting-to-dos-part-three)
 
 <br>
 
 # 0. git, github 사용하기
 
-# [\*git 사용법 정리](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
+[\*git 사용법 정리](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
 
 #### -`git init`
 
@@ -340,19 +339,19 @@ asd를 입력하면 아래와 같이 나온다.
 
 # 3. javascript on the browser
 
-### 3.0 The Document Object
+### - 3.0 The Document Object
 
 HTML의 property들은 Object에서 불러오듯이 쓸 수 있다.
 
 <br>
 
-### 3.1 HTML in javascript
+### - 3.1 HTML in javascript
 
 javascript에서 HTML의 property들을 불러오거나 바꿀 수 있다.
 
 <br>
 
-### 3.2 Searching For Elements
+### - 3.2 Searching For Elements
 
 - `document.getElementById( 아이디 )` : 아이디가 괄호 안에 있는 텍스트와 일치하는 것을 가져옴
 
@@ -378,7 +377,7 @@ javascript는 페이지에서 일어나는 event들을 listen 하고 있다. 이
 
 <br>
 
-### -3.4 Events part Two
+### - 3.4 Events part Two
 
 event를 찾는 방법은 ''[element] html element mdn' 이라고 검색하고 제목 뒤에 'Web APIs(JavaScript관점의 HTML Heading Element를 의미함)'라는 문장이 포함된 페이지를 찾는다.
 
@@ -459,14 +458,14 @@ clicked가 존재하면 삭제하고, 존재하지 않으면 추가하겠다는 
 
 # 4. Login 만들기
 
-### 4.0 Input Values
+### - 4.0 Input Values
 
 - `<input type="[type]"> </input>` : HTML에서 `input:[type]`입력 후 엔터를 치면 input element가 만들어진다.
 - `<button> [버튼 안에 넣을 텍스트] </button>` : 버튼을 생성할 수 있다.
 
 <br>
 
-### 4.1 Form Submission
+### - 4.1 Form Submission
 
 > #### \* input type에 따른 사용
 >
@@ -483,7 +482,7 @@ form 안에 있는 button나, input type="submit"을 클릭하면 자동으로 f
 
 <br>
 
-### 4.2 Events
+### - 4.2 Events
 
 ![](./asset/../assets/img/4.1.png)
 
@@ -518,13 +517,13 @@ tomato를 argument로 받아서 argument가 존재하는지 확인해보기 위�
 
 <br>
 
-### 4.3 Events part Two
+### - 4.3 Events part Two
 
 anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (강의에서는 MouseEvent가 발생했고 내 컴퓨터에서는 PointerEvent가 발생함.)
 
 <vr>
 
-### 4.4 Getting Username
+### - 4.4 Getting Username
 
 - string과 변수를 합치는 방법
   ![](assets/img/4.4-1.png)
@@ -532,7 +531,7 @@ anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (�
 
 <br>
 
-### 4.5 Saving Username
+### - 4.5 Saving Username
 
 이제 유저이름 받아오는 건 완성했고, username을 저장하도록 하려고 한다.
 기록할 수 있도록 해주는 API가 localStorage이다.
@@ -543,7 +542,7 @@ anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (�
 
 <br>
 
-### 4.6 Loding Username
+### - 4.6 Loding Username
 
 lacalStorge에 username이 존재하면 form 대신 h1을 보여준다.
 
@@ -551,7 +550,7 @@ lacalStorge에 username이 존재하면 form 대신 h1을 보여준다.
 
 <br>
 
-### 4.7 Super Recap
+### - 4.7 Super Recap
 
 paintGreetings에서 argument를 꼭 받아올 필요가 없다. 이미 localStorage에 username을 저장했으니 거기서 불러오도록 코드 작성.
 
@@ -565,7 +564,7 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 
 # 5. CLOCK 만들기
 
-### 5.0 Intervals
+### - 5.0 Intervals
 
 - divide and conquer : 기능마다 새로운 .js 파일을 만들어서 사용하는 방식
 
@@ -574,7 +573,7 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 
 <br>
 
-### 5.1 Timeouts and Dates
+### - 5.1 Timeouts and Dates
 
 - `setTimeout([실행시킬 함수], [주기 ms])` : 일정 시간이 지나면 일이 발생하도록 함.
 
@@ -589,7 +588,7 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 
 <br>
 
-### 5.2 PadStart
+### - 5.2 PadStart
 
 - `[String].padStart([최소로 필요한 문자 수], [부족할 경우 채워 넣을 문자])`
   ![](assets/img/5.2-1.png)
@@ -607,7 +606,7 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 
 # 6. QUOTE AND BACKGROUND
 
-### 6.0 Quotes
+### - 6.0 Quotes
 
 ![](assets/img/6.0-1.png)
 
@@ -619,7 +618,7 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 
 <br>
 
-### 6.1. Background
+### - 6.1 Background
 
 - `createElement([생성할 element])` : HTML Element를 생성하는데, document 안에 만드는게 아니라서 따로 넣어줘야 함.
 - `document.body.appendChild([element])` : body에 element 추가. (가장 밑에)
@@ -632,14 +631,14 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 
 # 7. TO DO LIST
 
-### 7.0 Setup
+### - 7.0 Setup
 
 코드 작성
 ![](assets/img/7.0.png)
 
 <br>
 
-### 7.1 Adding ToDos ~ 7.2 Deleting To Dos
+### - 7.1 Adding ToDos ~ 7.2 Deleting To Dos
 
 코드 작성
 
@@ -653,7 +652,7 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
-### 7.3 Saving To Dos
+### - 7.3 Saving To Dos
 
 코드 작성
 
@@ -672,7 +671,7 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
-### 7.4 Loading To Dos part One
+### - 7.4 Loading To Dos part One
 
 전체적인 컨셉은 local storage에 String으로 저장해서 불러올 땐 그 String을 javascript언어로 바꿔주는 것.
 
@@ -692,7 +691,7 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
-### 7.5 Loading To Dos part Two
+### - 7.5 Loading To Dos part Two
 
 - Local Storage에 있는 String을 배열 toDos에 집어넣는 방법
   - forEach로 각각 넣어주기
@@ -706,7 +705,7 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
-### 7.6 Deleteing To Dos part One
+### - 7.6 Deleteing To Dos part One
 
 배열의 각 요소에 id를 주려고 한다.
 하나의 요소를 object로 넣어서 object 안에 id와 text를 넣는다.
@@ -732,7 +731,7 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
-### 7.7 Deleting To Dos part Two
+### - 7.7 Deleting To Dos part Two
 
 전체적인 컨셉: array에서 뭔가를 삭제할 때 실제로 그 array에서 뭔가를 삭제하는게 아니라 해당 요소를 제외한 새로운 array를 저장하는 것.
 
@@ -742,7 +741,16 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 
 <br>
 
-### 7.8 Deleting To Dos part Three
+### - 7.8 Deleting To Dos part Three
 
 내가 작성한 코드. (정상 작동은 함.)
 ![](assets/img/7.8-1.png)
+
+- arrow function Recap
+  : `[function name]([argument] => [return])`
+  ![](assets/img/7.8-2.png)
+
+그리고 참고로 element의 id는 String이다.
+
+최종 코드
+![](assets/img/7.8-3.png)
