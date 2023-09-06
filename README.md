@@ -18,79 +18,73 @@
   - [학습 목표](#학습-목표)
   - [목차](#목차)
 - [0. git, github 사용하기](#0-git-github-사용하기)
-- [\*git 사용법 정리](#git-사용법-정리)
-      - [-`git init`](#-git-init)
-      - [-`git status`](#-git-status)
-      - [-`git remote`](#-git-remote)
-      - [-`git add`](#-git-add)
-      - [-`git commit -m '커밋메세지'`](#-git-commit--m-커밋메세지)
-      - [-`git push origin master`](#-git-push-origin-master)
-    - [-`git merge <브랜치 이름>`](#-git-merge-브랜치-이름)
-    - [-`git pull origin master`](#-git-pull-origin-master)
+- [\*git 사용법 정리](#git-사용법-정리) - [-`git init`](#-git-init) - [-`git status`](#-git-status) - [-`git remote`](#-git-remote) - [-`git add`](#-git-add) - [-`git commit -m '커밋메세지'`](#-git-commit--m-커밋메세지) - [-`git push origin master`](#-git-push-origin-master)
+  - [-`git merge <브랜치 이름>`](#-git-merge-브랜치-이름)
+  - [-`git pull origin master`](#-git-pull-origin-master)
 - [1. requirements](#1-requirements)
 - [2 javacript basic](#2-javacript-basic)
-    - [- 2.0 Your First JS Project](#--20-your-first-js-project)
-    - [- 2.1 Basic Data Types](#--21-basic-data-types)
-    - [- 2.2 Variables](#--22-variables)
-    - [- 2.3 const and let](#--23-const-and-let)
-    - [- 2.4 Booleans](#--24-booleans)
-    - [- 2.5 Arrays](#--25-arrays)
-    - [- 2.6 Objects](#--26-objects)
-    - [- 2.7 Function part One](#--27-function-part-one)
-    - [- 2.8 Function part Two](#--28-function-part-two)
-    - [- 2.10 Returns](#--210-returns)
-    - [- 2.12 Conditionals](#--212-conditionals)
-    - [- 2.13 Conditionals part Two](#--213-conditionals-part-two)
-    - [- 2.14 Conditionals part Three](#--214-conditionals-part-three)
+  - [- 2.0 Your First JS Project](#--20-your-first-js-project)
+  - [- 2.1 Basic Data Types](#--21-basic-data-types)
+  - [- 2.2 Variables](#--22-variables)
+  - [- 2.3 const and let](#--23-const-and-let)
+  - [- 2.4 Booleans](#--24-booleans)
+  - [- 2.5 Arrays](#--25-arrays)
+  - [- 2.6 Objects](#--26-objects)
+  - [- 2.7 Function part One](#--27-function-part-one)
+  - [- 2.8 Function part Two](#--28-function-part-two)
+  - [- 2.10 Returns](#--210-returns)
+  - [- 2.12 Conditionals](#--212-conditionals)
+  - [- 2.13 Conditionals part Two](#--213-conditionals-part-two)
+  - [- 2.14 Conditionals part Three](#--214-conditionals-part-three)
 - [3. javascript on the browser](#3-javascript-on-the-browser)
-    - [3.0 The Document Object](#30-the-document-object)
-    - [3.1 HTML in javascript](#31-html-in-javascript)
-    - [3.2 Searching For Elements](#32-searching-for-elements)
-    - [- 3.3 Events](#--33-events)
-    - [-3.4 Events part Two](#-34-events-part-two)
-    - [- 3.5 More Events](#--35-more-events)
-    - [- 3.6 CSS in Javascript](#--36-css-in-javascript)
-    - [- 3.7 CSS in JavaScript part Two](#--37-css-in-javascript-part-two)
-    - [- 3.8 CSS in Javascript part Three](#--38-css-in-javascript-part-three)
+  - [3.0 The Document Object](#30-the-document-object)
+  - [3.1 HTML in javascript](#31-html-in-javascript)
+  - [3.2 Searching For Elements](#32-searching-for-elements)
+  - [- 3.3 Events](#--33-events)
+  - [-3.4 Events part Two](#-34-events-part-two)
+  - [- 3.5 More Events](#--35-more-events)
+  - [- 3.6 CSS in Javascript](#--36-css-in-javascript)
+  - [- 3.7 CSS in JavaScript part Two](#--37-css-in-javascript-part-two)
+  - [- 3.8 CSS in Javascript part Three](#--38-css-in-javascript-part-three)
 - [4. Login 만들기](#4-login-만들기)
-    - [4.0 Input Values](#40-input-values)
-    - [4.1 Form Submission](#41-form-submission)
-    - [4.2 Events](#42-events)
-    - [4.3 Events part Two](#43-events-part-two)
-    - [4.4 Getting Username](#44-getting-username)
-    - [4.5 Saving Username](#45-saving-username)
-    - [4.6 Loding Username](#46-loding-username)
-    - [4.7 Super Recap](#47-super-recap)
+  - [4.0 Input Values](#40-input-values)
+  - [4.1 Form Submission](#41-form-submission)
+  - [4.2 Events](#42-events)
+  - [4.3 Events part Two](#43-events-part-two)
+  - [4.4 Getting Username](#44-getting-username)
+  - [4.5 Saving Username](#45-saving-username)
+  - [4.6 Loding Username](#46-loding-username)
+  - [4.7 Super Recap](#47-super-recap)
 - [5. CLOCK 만들기](#5-clock-만들기)
-    - [5.0 Intervals](#50-intervals)
-    - [5.1 Timeouts and Dates](#51-timeouts-and-dates)
-    - [5.2 PadStart](#52-padstart)
+  - [5.0 Intervals](#50-intervals)
+  - [5.1 Timeouts and Dates](#51-timeouts-and-dates)
+  - [5.2 PadStart](#52-padstart)
 - [6. QUOTE AND BACKGROUND](#6-quote-and-background)
-    - [6.0 Quotes](#60-quotes)
-    - [6.1. Background](#61-background)
+  - [6.0 Quotes](#60-quotes)
+  - [6.1. Background](#61-background)
 - [7. TO DO LIST](#7-to-do-list)
-    - [7.0 Setup](#70-setup)
-    - [7.1 Adding ToDos ~ 7.2 Deleting To Dos](#71-adding-todos--72-deleting-to-dos)
-    - [7.3 Saving To Dos](#73-saving-to-dos)
-    - [7.4 Loading To Dos part One](#74-loading-to-dos-part-one)
+  - [7.0 Setup](#70-setup)
+  - [7.1 Adding ToDos ~ 7.2 Deleting To Dos](#71-adding-todos--72-deleting-to-dos)
+  - [7.3 Saving To Dos](#73-saving-to-dos)
+  - [7.4 Loading To Dos part One](#74-loading-to-dos-part-one)
+  - [7.5 Loading To Dos part Two](#75-loading-to-dos-part-two)
+  - [7.6 Deleteing To Dos part One](#76-deleteing-to-dos-part-one)
+  - [7.7 Deleting To Dos part Two](#77-deleting-to-dos-part-two)
+  - [7.8 Deleting To Dos part Three](#78-deleting-to-dos-part-three)
 
 <br>
 
 # 0. git, github 사용하기
 
-# [*git 사용법 정리](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
+# [\*git 사용법 정리](https://backlog.com/git-tutorial/kr/intro/intro1_1.html)
 
 #### -`git init`
 
 : 터미널에서 git으로 관리할 디렉토리로 들어간 후 `git init` 을 입력하면 git으로 관리하는 디렉토리가 된다. (.git 디렉토리가 생긴 것을 확인할 수 있다.)
 
-
-
 #### -`git status`
 
 : 디렉토리 내에 있는 파일들의 수정 상태와 commit 여부를 확인할 수 있다.
-
-
 
 #### -`git remote`
 
@@ -101,7 +95,7 @@
 
 - `git remote add <이름> <원격저장소 주소>`
 
-  :  현재 디렉토리를 github의 원격저장소와 연결한다. 연결 후 다시 `git remote -v`로 연결 상태를 확인할 수 있다.
+  : 현재 디렉토리를 github의 원격저장소와 연결한다. 연결 후 다시 `git remote -v`로 연결 상태를 확인할 수 있다.
 
   ![git_remote2](./assets/img/git_remote2.png)
 
@@ -110,21 +104,17 @@
 - `git add .`: 모든 파일을 Staging Area로 등록한다.
 - `git add <파일명>`: 지정한 파일만 Staging Area로 등록한다.
 
-
-
 #### -`git commit -m '커밋메세지'`
 
 : 앞서 Staging Area에 있던 파일들을 commit한다. 커밋메세지는 해당 commit의 이름으로 등록된다.
 
-(`git commit`만 하면 vim 편집기로 커밋 내용을 저장해야 했던 것 같은데 vim 편집기 사용은 아직 어려우니 가급적 `git commit -m`사용. 참고로 vim 편집기에서 빠져나오려면  `:` 키를 먼저 누르고 `q` 를 누른 후 엔터를 눌러 빠져나오면 된다.)
-
-
+(`git commit`만 하면 vim 편집기로 커밋 내용을 저장해야 했던 것 같은데 vim 편집기 사용은 아직 어려우니 가급적 `git commit -m`사용. 참고로 vim 편집기에서 빠져나오려면 `:` 키를 먼저 누르고 `q` 를 누른 후 엔터를 눌러 빠져나오면 된다.)
 
 #### -`git push origin master`
 
 : commit한 내역을 원격저장소로 보내서 동기화한다.
 
-> * push 도중 에러 발생<br>
+> - push 도중 에러 발생<br>
 >
 > ![push_error](./assets/img/push_error.png)
 >
@@ -144,7 +134,7 @@
 
 ### -`git merge <브랜치 이름>`
 
-- ff(fast-forward) : 현재 선택된 브랜치는 수정사항이 없고, 지정한 브랜치만 커밋이 존재할 때, 그 상태로 바꿔주는 것을 의미. 
+- ff(fast-forward) : 현재 선택된 브랜치는 수정사항이 없고, 지정한 브랜치만 커밋이 존재할 때, 그 상태로 바꿔주는 것을 의미.
 
 - non fast-forward : 두 브랜치 모두 수정사항이 존재하여 각각의 수정사항을 합치는 것을 의미.<br>
 
@@ -156,9 +146,7 @@
 >
 > ![push_error](./assets/img/pull_error.png)
 >
-> 원격 저장소는 그대로 있는 상태에서 로컬 저장소에 커밋한 내용이 있어서 오류가 발생했다. 내용을 합쳐서 다시 push하기 위해서 `git config pull.rebase false`실행하여  충돌한 파일에서 충돌한 지점을 수정하면 다시 commit 할 수 있는 것 같다.
-
-
+> 원격 저장소는 그대로 있는 상태에서 로컬 저장소에 커밋한 내용이 있어서 오류가 발생했다. 내용을 합쳐서 다시 push하기 위해서 `git config pull.rebase false`실행하여 충돌한 파일에서 충돌한 지점을 수정하면 다시 commit 할 수 있는 것 같다.
 
 <br>
 
@@ -172,7 +160,7 @@ javascrip는 프론트엔드 개발을 하려면 필수적이다. 프레임 워�
 
 ### - 2.0 Your First JS Project
 
-: javascript가 작동하는 방식에 대한 설명이다. javascrip는 별도의 프로그램 설치 없이 모든 브라우저에서 작동한다. console에서 명령을 내리면 바로 출력이 나오기도 하지만, 복잡한 프로그램을 만들기 위해서는 파일명.js 형태로 자바스크립트 파일을 만들고, html 파일에서 불러오는 형식으로 작동한다. (css도 마찬가지) 
+: javascript가 작동하는 방식에 대한 설명이다. javascrip는 별도의 프로그램 설치 없이 모든 브라우저에서 작동한다. console에서 명령을 내리면 바로 출력이 나오기도 하지만, 복잡한 프로그램을 만들기 위해서는 파일명.js 형태로 자바스크립트 파일을 만들고, html 파일에서 불러오는 형식으로 작동한다. (css도 마찬가지)
 
 VScode에서 html 파일을 연 다음 `!`로 자동으로 기본 뼈대를 만들 수 있다.
 
@@ -188,8 +176,6 @@ css 파일은 head안에, 그리고 title 위에서 가져온다. (rel은 relati
 
 <br>
 
-
-
 ### - 2.1 Basic Data Types
 
 자바스크립트에서는 자동으로 Date Type을 인식한다.
@@ -204,11 +190,9 @@ variable : 값을 저장하거나 유지하는 역할
 
 - const : 바뀌지 않는 값, 바뀌면 안되는 값을 선언할 때 사용한다.
 
-자바스크립트에서 변수명을 작성할 때는 단어와 단어 사이를 구분하기 위해 첫 문자를 대문자로 쓰는 것이 관례(camelCase), 파이썬에서는 _를 이용해서 구분한다.(snake_case)
+자바스크립트에서 변수명을 작성할 때는 단어와 단어 사이를 구분하기 위해 첫 문자를 대문자로 쓰는 것이 관례(camelCase), 파이썬에서는 \_를 이용해서 구분한다.(snake_case)
 
 <br>
-
-
 
 ### - 2.3 const and let
 
@@ -239,7 +223,7 @@ variable(변수)를 만들 때는 const와 let을 이용해서 선언할 수 있
 
 가장 기본적인 데이터 구조.
 
-*vscode에서 단어를 한번에 수정하려면 단어 선택 후 `cmd + shift + L `
+\*vscode에서 단어를 한번에 수정하려면 단어 선택 후 `cmd + shift + L `
 
 [ ]안에 집어넣으면 되고 각각의 자료형은 다 달라도 상관없다. 쉼표(,)로 구분만 잘 하면 된다.
 
@@ -287,7 +271,7 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 
 이때까지 쓴 함수는 함수 안에 적어놓은 기능만을 수행했다. (예를 들면, console.log( ) )
 
-함수에서 어떤 결과값을 얻으려고 한다. 함수 안에서 `return <반환할 값>`을 적으면  해당 함수를 호출 했을 때 그 결과값이 반환된다.
+함수에서 어떤 결과값을 얻으려고 한다. 함수 안에서 `return <반환할 값>`을 적으면 해당 함수를 호출 했을 때 그 결과값이 반환된다.
 
 > ![!](./assets/img/2.10-1.png)
 >
@@ -296,21 +280,22 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 <br>
 
 ### - 2.12 Conditionals
+
 - `prompt("메세지")`: 메세지를 띄워 보여주고, 사용자가 값을 입력하면 그 값을 받아옴. 아주 오래된 방법이고 css를 적용할 수 없을 뿐더러 답하기 전까지 이 라인에서 동작을 멈추기 때문에 사용 안한다.
 
- - type을 바꾸는 방법 : `parseInt( )`
+- type을 바꾸는 방법 : `parseInt( )`
 
 ![!](./assets/img/2.11-1.png)
 
- 123을 입력하고 받아온 값의 type을 확인해보니 string이다.
+123을 입력하고 받아온 값의 type을 확인해보니 string이다.
 
 ![](./assets/img/2.11-2.png)
 
- `parseInt( )`이용해서 string 을 int로 바꿀 수 있다.
+`parseInt( )`이용해서 string 을 int로 바꿀 수 있다.
 
 ![!](./assets/img/2.11-3.png)
 
- 입력한 값이 숫자가 아니면 NaN(Not a Number)이 나온다.
+입력한 값이 숫자가 아니면 NaN(Not a Number)이 나온다.
 
 ![!](./assets/img/2.11-4.png)
 
@@ -318,15 +303,13 @@ object는 const로 선언했지만 자유롭게 항목의 값을 업데이트하
 
 <br>
 
-
-
 ### - 2.13 Conditionals part Two
 
 - `inNaN( )` : 괄호 안의 값이 NaN인지 판별하여 boolean으로 반환해준다.
 
 ![!](./assets/img/2.12-1.png)
 
-123을 입력하면 위와 같이 나오고, 
+123을 입력하면 위와 같이 나오고,
 
 ![!](./assets/img/2.12-2.png)
 
@@ -407,11 +390,11 @@ event를 찾는 방법은 ''[element] html element mdn' 이라고 검색하고 �
 
 여기서 on-으로 시작하는 property들은 다 event를 의미하는데, event로 불러올 때는 on을 빼고 써야 한다.
 
->![](./assets/img/3.4-3.png)
+> ![](./assets/img/3.4-3.png)
 >
->테스트 삼아 만들어봄. title이라는 element 위에 커서가 올라가거나 떠나면 innerText를 바꿔주고, 클릭하면 색상을 바꿔준다.
+> 테스트 삼아 만들어봄. title이라는 element 위에 커서가 올라가거나 떠나면 innerText를 바꿔주고, 클릭하면 색상을 바꿔준다.
 
-우리가 하는 건, JavaScript로 HTML element를 가져오고, 가져온 element에 listener를 추가해주고, event가 발생하면  function을 실행시켜준다.
+우리가 하는 건, JavaScript로 HTML element를 가져오고, 가져온 element에 listener를 추가해주고, event가 발생하면 function을 실행시켜준다.
 
 <br>
 
@@ -485,12 +468,13 @@ clicked가 존재하면 삭제하고, 존재하지 않으면 추가하겠다는 
 
 ### 4.1 Form Submission
 
-> #### * input type에 따른 사용
-> - text : text를 입력할 수 있게 함. String으로 받는다. 
+> #### \* input type에 따른 사용
+>
+> - text : text를 입력할 수 있게 함. String으로 받는다.
 >   - required를 넣으면 빈칸허용 불가.
 >   - maxlenghth를 넣으면 글자수 제한 가능.
 >   - placeholder를 넣으면 아무 글자도 없을 때 상자 안에 띄워질 텍스트 설정 가능.
-> 
+>
 > <br>
 >
 > - submit : input으로 생성한 button인데, form 안에서 사용하는 button이다. value는 button 안에 들어갈 텍스트.
@@ -503,7 +487,7 @@ form 안에 있는 button나, input type="submit"을 클릭하면 자동으로 f
 
 ![](./asset/../assets/img/4.1.png)
 
-그리고 버튼을 클릭하면 url 맨 뒤가 물음표로 바뀌면서 화면이 넘어가는 것을 확인 할 수 있다. 
+그리고 버튼을 클릭하면 url 맨 뒤가 물음표로 바뀌면서 화면이 넘어가는 것을 확인 할 수 있다.
 
 ![](/assets/img/4.2-1.png)
 
@@ -519,10 +503,10 @@ tomato를 argument로 받아서 argument가 존재하는지 확인해보기 위�
 
 ![](assets/img/4.2-4.png)
 
-그래서 여기 있는게 해당 이벤트에 대한 정보들이다. 예를들면, submitter: input 에서 주체가 input인 것을 알 수 있다. 
+그래서 여기 있는게 해당 이벤트에 대한 정보들이다. 예를들면, submitter: input 에서 주체가 input인 것을 알 수 있다.
 
 - `[information].preventDefault()` : event의 기본행동(submit에 새로고침 같은 거)이 발생하지 않도록 막는 역할.
-  
+
 <br>
 
 > information에 해당하는 argument를 받아 올 때는 argument 이름을 event로 설정하는 것이 관례.
@@ -543,15 +527,15 @@ anchor(<a>)를 클릭했을 때는 어떤 event가 발생하는지 살펴봄. (�
 ### 4.4 Getting Username
 
 - string과 변수를 합치는 방법
-![](assets/img/4.4-1.png)
-밑에 있는 방법을 많이 사용하면 편하다. `${변수 이름}`으로 사용하면 되고, 작은 따옴표가 아니라 백틱(``)을 이용해야 함.
+  ![](assets/img/4.4-1.png)
+  밑에 있는 방법을 많이 사용하면 편하다. `${변수 이름}`으로 사용하면 되고, 작은 따옴표가 아니라 백틱(``)을 이용해야 함.
 
 <br>
 
 ### 4.5 Saving Username
 
 이제 유저이름 받아오는 건 완성했고, username을 저장하도록 하려고 한다.
-기록할 수 있도록 해주는 API가 localStorage이다. 
+기록할 수 있도록 해주는 API가 localStorage이다.
 
 - `localStorage.setItem([key],[value])` : localStorage에서 정보를 저장할 수 있게 해준다.
 - `localStorage.getItem([key])` : localStorage에 저장된 정보를 불러올 수 있다.
@@ -586,20 +570,18 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 - divide and conquer : 기능마다 새로운 .js 파일을 만들어서 사용하는 방식
 
 - `setInterval([실행시킬 함수], [주기 ms])` : 일정 시간마다 새로운 일이 일어나도록 설정할 수 있다.
-![](assets/img/5.0-1.png)
+  ![](assets/img/5.0-1.png)
 
 <br>
-
 
 ### 5.1 Timeouts and Dates
 
 - `setTimeout([실행시킬 함수], [주기 ms])` : 일정 시간이 지나면 일이 발생하도록 함.
 
 > Date object
-> 
+>
 > 컴퓨터에서 현재 날짜,시간 등 정보를 가져올 수 있다.
-> ![](assets/img/5.1-1.png)
-> ![](assets/img/5.1-2.png)
+> ![](assets/img/5.1-1.png) > ![](assets/img/5.1-2.png)
 
 코드 작성
 
@@ -610,15 +592,15 @@ form이 나올때만 Listener를 달아주면 되니까 addListener도 if문 안
 ### 5.2 PadStart
 
 - `[String].padStart([최소로 필요한 문자 수], [부족할 경우 채워 넣을 문자])`
-![](assets/img/5.2-1.png)
+  ![](assets/img/5.2-1.png)
 
 - `[String].padEnd([최소로 필요한 문자 수], [부족할 경우 채워 넣을 문자])`
-![](assets/img/5.2-2.png)
+  ![](assets/img/5.2-2.png)
 
 코드 작성
 ![](assets/img/5.2-3.png)
 date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 한다.
-  
+
 - `String([string이 아닌 문자])` : String으로 만들어줌.
 
 <br>
@@ -630,7 +612,7 @@ date.getHours() 에서 나오는 값은 number이므로 String 으로 바꿔야 
 ![](assets/img/6.0-1.png)
 
 - `Math`
-![](assets/img/6.0-2.png)
+  ![](assets/img/6.0-2.png)
 
 코드 작성
 ![](assets/img/6.0-3.png)
@@ -676,16 +658,16 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 코드 작성
 
 ![](assets/img/7.3-3.png)
-이렇게 작성하면 
+이렇게 작성하면
 ![](assets/img/7.3-4.png)
 배열 형태로 저장할 수 없음.
 
-
 > local Storage 저장 결과를 배열 형태로
+>
 > - `JSON.stringify([변수])` : 변수가 무엇이든 String으로 바꿔준다.
 >
 > ![](assets/img/7.3-2.png)
-> 
+>
 > ![](assets/img/7.3-1.png)
 
 <br>
@@ -695,14 +677,72 @@ event 안에 target이라는 property가 있다. 여기서 이벤트 발생 위�
 전체적인 컨셉은 local storage에 String으로 저장해서 불러올 땐 그 String을 javascript언어로 바꿔주는 것.
 
 - `JSON.parse([string])` : string을 javascript언어로 바꿔줌
-![](assets/img/7.4-1.png)
-![](assets/img/7.4-2.png)
+  ![](assets/img/7.4-1.png)
+  ![](assets/img/7.4-2.png)
 
 - `[배열].forEach([함수])`
-![](assets/img/7.4-3.png)
-배열 안에 있는 각각의 item에 대해서 한번씩 어떤 함수를 작동시킬 때 사용. item은 event를 자동으로 제공했던 것 처럼 사용할 수 있음.
-또는 아래 방법처럼 arrow function 이용해도 됨.
-![](assets/img/7.4-4.png)
+  ![](assets/img/7.4-3.png)
+  배열 안에 있는 각각의 item에 대해서 한번씩 어떤 함수를 작동시킬 때 사용. item은 event를 자동으로 제공했던 것 처럼 사용할 수 있음.
+  또는 아래 방법처럼 arrow function 이용해도 됨.
+  ![](assets/img/7.4-4.png)
 
 어차피 배열 안에 있는 값들을 하나씩 넣을 것이기 때문에, paintToDo에 그대로 사용해도 된다.
+![](assets/img/7.4-5.png)
+47번 라인과 48~50 라인은 의미가 같다.
 
+<br>
+
+### 7.5 Loading To Dos part Two
+
+- Local Storage에 있는 String을 배열 toDos에 집어넣는 방법
+  - forEach로 각각 넣어주기
+    ![](assets/img/7.5-1.png)
+    ![](assets/img/7.5-2.png)
+    함수를 새로 정의해서 넣어줄 수 있다.
+  - 배열 toDos를 let으로 선언한 후 바꿔주기
+    ![](assets/img/7.5-3.png)
+    ![](assets/img/7.5-4.png)
+    local storage안에 todos 데이터가 존재할 경우, 배열 toDos안에 데이터 집어넣기.
+
+<br>
+
+### 7.6 Deleteing To Dos part One
+
+배열의 각 요소에 id를 주려고 한다.
+하나의 요소를 object로 넣어서 object 안에 id와 text를 넣는다.
+(`[{id:123, text:first}, {id:124, text:second}, ... ]`)
+
+랜덤한 아이디를 만들기 위해서 `Date.now()` 사용
+
+![](assets/img/7.6-1.png)
+
+> 여기서 에러 발생해서 찾아보니
+
+    ![](assets/img/7.6-error.png)
+
+> savedToDos를 saveToDos로 잘못 적어서 if 문이 실행되고 toDos = parsedToDos가 되면 toDos가 배열이 아니라 null로 바뀜.
+> 따라서 배열이 아닌 곳에 push를 사용하면서 오류가 발생.
+
+화면에 id도 주고 싶음.
+![](assets/img/7.6-2.png)
+이거는 내가 작성한 코드... 잘못 이해했음.
+
+![](assets/img/7.6-3.png)
+텍스트를 표시하는게 아니라 li element에 id property를 추가해 주는 것.
+
+<br>
+
+### 7.7 Deleting To Dos part Two
+
+전체적인 컨셉: array에서 뭔가를 삭제할 때 실제로 그 array에서 뭔가를 삭제하는게 아니라 해당 요소를 제외한 새로운 array를 저장하는 것.
+
+- `[array].filter([function])` : array안에 있는 요소를 function으로 보낸다. functoin에서 true를 반환하면 해당 요소는 유지되고, true가 아니면 제외된다.
+  ![](assets/img/7.7-1.png)
+  forEach처럼 item을 자동으로 받아올 수 있다.
+
+<br>
+
+### 7.8 Deleting To Dos part Three
+
+내가 작성한 코드. (정상 작동은 함.)
+![](assets/img/7.8-1.png)
